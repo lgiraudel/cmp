@@ -128,6 +128,14 @@ export default class Cmp {
 			this.store.toggleConsentToolShowing(true);
 			this.store.setFirstScreen(screen || 0);
 			callback(true);
+		},
+
+		consentAll: (_, callback = () => {}) => {
+			this.store.selectAllVendors(true);
+			this.store.selectAllPurposes(true);
+			this.store.selectAllCustomPurposes(true);
+			this.store.persist();
+			this.notify('onSubmit');
 		}
 	};
 
