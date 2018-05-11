@@ -11,6 +11,12 @@ const SECTION_DETAILS = 1;
 export default class Popup extends Component {
 	state = {
 		selectedPanelIndex: SECTION_INTRO
+	}
+
+	componentWillReceiveProps(nextProps) {
+		this.setState({
+			selectedPanelIndex: nextProps.store.firstScreen
+		});
 	};
 
 	onAcceptAll = () => {

@@ -124,8 +124,9 @@ export default class Cmp {
 		/**
 		 * Trigger the consent tool UI to be shown
 		 */
-		showConsentTool: (_, callback = () => {}) => {
+		showConsentTool: (screen, callback = () => {}) => {
 			this.store.toggleConsentToolShowing(true);
+			this.store.setFirstScreen(screen || 0);
 			callback(true);
 		}
 	};

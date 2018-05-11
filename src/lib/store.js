@@ -330,6 +330,11 @@ export default class Store {
 		this.storeUpdate();
 	};
 
+	setFirstScreen = (screen) => {
+		this.firstScreen = typeof screen === 'number' ? screen : 0;
+		this.storeUpdate();
+	}
+
 	updateVendorList = vendorList => {
 
 		const {
