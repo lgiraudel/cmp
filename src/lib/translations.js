@@ -133,5 +133,72 @@ export default {
 			message: 'Du kannst deine Datenschutz-Einstellungen bearbeiten',
 			consentLink: 'hier'
 		}
+	},
+	fr: {
+		intro: {
+			title: 'Merci de votre visite sur ',
+			description: 'Afin de financer la création de contenu de qualité, nous et certains services tiers déposons des cookies et stockons ou accédons à des données sur votre appareil pour de multiples raisons. Certains services tiers collectent également des données afin de vous montrer un contenu et des publicités personnalisés. Certains de ces services requièrent votre consentement pour collecter et utiliser vos données.',
+			acceptAll: 'J\'accepte',
+			rejectAll: 'Je refuse',
+			showPurposes: 'Voir les détails'
+		},
+		details: {
+			title: 'Préférences utilisateur',
+			back: 'Retour',
+			save: 'Sauver et quitter'
+		},
+		purposes: {
+			active: 'Activé',
+			inactive: 'Désactivé',
+			showVendors: 'Voir la liste des partenaires',
+			cookies: {
+				menu: 'Utilisation des cookies',
+				title: 'Ce site utilise des cookies',
+				description: 'Nos partenaires et nous établissons des cookies (petits fichiers texte) et recueillons des informations pendant votre navigation sur le Web dans ce navigateur. Ces informations servent à comprendre vos centres d\'intérêt et vous proposer un contenu et des publicités pertinents.'
+			},
+			purpose1: {
+				menu: 'Stockage d\'information',
+				title: 'Stockage d\'information',
+				description: 'Autoriser le stockage ainsi que la lecture d\'informations telles que des identifiants de session ou d\'appareil, cookies ou technologies similaires.'
+			},
+			purpose2: {
+				menu: 'Personalisation',
+				title: 'Personalisation',
+				description: 'Autoriser de traiter et/ou stocker des données relatives à votre utilisation de ce site ou service, de manière à vous proposer ensuite des publicités adaptées à vous centres d\'intérêt.'
+			},
+			purpose3: {
+				menu: 'Affichage publicitaire',
+				title: 'Affichage publicitaire',
+				description: 'Autoriser la collecte d\'information ou l\'utilisation d\'information préalablement collectées afin de vous afficher des publicités ciblées.'
+			},
+			purpose4: {
+				menu: 'Affichage de contenu',
+				title: 'Affichage de contenu',
+				description: 'Autoriser la collecte d\'information ou l\'utilisation d\'information préalablement collectées afin de vous proposer du contenu ciblé.'
+			},
+			purpose5: {
+				menu: 'Mesures',
+				title: 'Mesures',
+				description: ''
+			},			
+			customPurpose1: {
+				menu: '',
+				title: '',
+				description: ''
+			}
+		},
+		vendors: {
+			title: 'Nos partenaires',
+			rejectAll: 'Tout refuser',
+			acceptAll: 'Tout accepter',
+			company: 'Société',
+			offOn: 'Autoriser',
+			description: 'Aidez-nous à vous fournir une meilleur expérience utilisateur ! Nos partenaires déposent des cookies et collectent des informations depuis votre navigateur pour vous fournir un meilleur contenu, des publicités pertinentes ainsi que pour analyser l\'audience globale du site',
+			moreChoices: ''
+		},
+		footer: {
+			message: '',
+			consentLink: ''
+		}
 	}
 };
