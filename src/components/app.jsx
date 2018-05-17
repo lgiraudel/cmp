@@ -37,7 +37,7 @@ export default class App extends Component {
 				<Popup store={store}
 					   onSave={this.onSave}
 				/>
-				<Footer store={store} />
+				{/*<Footer store={store} />*/}
 			</div>
 		);
 	}

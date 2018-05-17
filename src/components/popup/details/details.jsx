@@ -92,7 +92,7 @@ export default class Details extends Component {
 					</Panel>
 				</div>
 				<div class={style.footer}>
-					<a class={style.cancel} onClick={this.handleBack}><LocalLabel localizeKey='back'>Back</LocalLabel></a>
+					<a class={style.cancel} style={{display: selectedPanelIndex === 0 ? 'none' : 'inline'}} onClick={this.handleBack}><LocalLabel localizeKey='back'>Back</LocalLabel></a>
 					<Button class={style.save} onClick={onSave}><LocalLabel localizeKey='save'>Save and Exit</LocalLabel></Button>
 				</div>
 			</div>
