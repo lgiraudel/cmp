@@ -182,8 +182,8 @@ export default {
 				description: ''
 			},			
 			customPurpose1: {
-				menu: '',
-				title: '',
+				menu: 'Publicités personnalisées par Google',
+				title: 'Publicités personnalisées par Google',
 				description: ''
 			}
 		},
