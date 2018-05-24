@@ -157,30 +157,30 @@ export default {
 				description: 'Nos partenaires et nous établissons des cookies (petits fichiers texte) et recueillons des informations pendant votre navigation sur le Web dans ce navigateur. Ces informations servent à comprendre vos centres d\'intérêt et vous proposer un contenu et des publicités pertinents.'
 			},
 			purpose1: {
-				menu: 'Stockage d\'information',
-				title: 'Stockage d\'information',
-				description: 'Autoriser le stockage ainsi que la lecture d\'informations telles que des identifiants de session ou d\'appareil, cookies ou technologies similaires.'
+				menu: 'Stockage d\'informations et accès',
+				title: 'Stockage d\'informations et accès',
+				description: 'Autoriser le stockage d’informations ou l’accès à des informations déjà stockées sur votre appareil, telles que des identifiants publicitaires, des identifiants de dispositif, des cookies et des technologies similaires.'
 			},
 			purpose2: {
-				menu: 'Personalisation',
-				title: 'Personalisation',
-				description: 'Autoriser de traiter et/ou stocker des données relatives à votre utilisation de ce site ou service, de manière à vous proposer ensuite des publicités adaptées à vous centres d\'intérêt.'
+				menu: 'Personnalisation',
+				title: 'Personnalisation',
+				description: 'Autoriser la collecte et le traitement d’informations sur votre utilisation de ce service pour ensuite personnaliser la publicité et/ou le contenu qui vous sont proposés dans d’autres contextes, tels que sur d’autres sites ou applications, au fil du temps. En règle générale, le contenu du site ou de l’application est utilisé pour déterminer vos centres d’intérêt et permettent de déterminer le choix de la publicité et/ou du contenu.'
 			},
 			purpose3: {
-				menu: 'Affichage publicitaire',
-				title: 'Affichage publicitaire',
-				description: 'Autoriser la collecte d\'information ou l\'utilisation d\'information préalablement collectées afin de vous afficher des publicités ciblées.'
+				menu: 'Sélection d\'annonces, diffusion, rapport',
+				title: 'Sélection d\'annonces, diffusion, rapport',
+				description: 'Autoriser le traitement des données d\'un utilisateur pour fournir du contenu ou des publicités et mesurer la diffusion de ces contenus ou publicités, extraire des informations et générer des rapports pour comprendre l\'utilisation des services; et / ou accéder ou stocker des informations sur des dispositifs à cette fin.'
 			},
 			purpose4: {
-				menu: 'Affichage de contenu',
-				title: 'Affichage de contenu',
-				description: 'Autoriser la collecte d\'information ou l\'utilisation d\'information préalablement collectées afin de vous proposer du contenu ciblé.'
+				menu: 'Sélection de contenu, diffusion, rapport',
+				title: 'Sélection de contenu, diffusion, rapport',
+				description: 'Autoriser le traitement des données d\'un utilisateur pour la création de contenu personnalisé (y compris la diffusion, l\'analyse et la création de rapports) en fonction des préférences ou des intérêts d\'un utilisateur connus ou inférer à partir de données collectées sur plusieurs sites, applications ou appareils; et / ou accéder ou stocker des informations sur des dispositifs à cette fin.'
 			},
 			purpose5: {
 				menu: 'Mesures',
 				title: 'Mesures',
-				description: ''
-			},			
+				description: 'Autoriser la collecte d’informations sur votre utilisation du contenu et la combinaison avec des informations précédemment collectées, utilisées pour mesurer, comprendre et rendre compte de votre utilisation du service. Cela n’inclut pas la personnalisation, la collecte d’informations sur votre utilisation de ce service pour personnaliser ultérieurement le contenu et/ou la publicité dans d’autres contextes, par exemple sur d’autres services, tels que des sites ou des applications.'
+			},
 			customPurpose1: {
 				menu: 'Publicités personnalisées par Google',
 				title: 'Publicités personnalisées par Google',
