@@ -194,7 +194,7 @@ export default {
 			company: 'Société',
 			offOn: 'Autoriser',
 			description: 'Aidez-nous à vous fournir une meilleur expérience utilisateur ! Nos partenaires déposent des cookies et collectent des informations depuis votre navigateur pour vous fournir un meilleur contenu, des publicités pertinentes ainsi que pour analyser l\'audience globale du site',
-			moreChoices: ''
+			moreChoices: 'Choisir les partenaires'
 		},
 		footer: {
 			message: '',
