@@ -13,6 +13,7 @@ export default class App extends Component {
 		const { store, notify } = this.props;
 		store.persist();
 		notify('onSubmit');
+		notify('onClose');
 		store.toggleConsentToolShowing(false);
 	};
 
