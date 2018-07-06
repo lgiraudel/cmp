@@ -192,8 +192,8 @@ export default class Cmp {
 		const {__cmpCall: cmp} = data;
 		if (cmp) {
 			const {callId, command, parameter} = cmp;
-			this.processCommand(command, parameter, returnValue =>
-				source.postMessage({__cmpReturn: {callId, command, returnValue}}, origin));
+			this.processCommand(command, parameter, (returnValue, success) =>
+				source.postMessage({__cmpReturn: {callId, command, returnValue, success}}, origin));
 		}
 	};
 
