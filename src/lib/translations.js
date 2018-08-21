@@ -80,7 +80,7 @@ export default {
 	de: {
 		intro: {
 			title: 'Diese Website verwendet Cookies',
-			description: 'Wir und unsere Partner verwenden sogenannte Cookies (kleine Textdateien) im Webbrowser um zu verstehen, was unsere Besucher interessiert und entsprechend relevante Inhalte und Werbung anbieten zu können. Zukünftig benötigen wir wahrscheinlich ihr/euer Einverständnis dazu. Ein Beispiel, wie dies aussehen könnte, finden sie/findet ihr unter dieser Erklärung ',
+			description: 'Wir und unsere Partner verwenden sogenannte Cookies (kleine Textdateien) im Webbrowser um zu verstehen, was unsere Besucher interessiert und entsprechend relevante Inhalte und Werbung anbieten zu k&ouml;nnen. Zuk&uuml;nftig ben&ouml;tigen wir wahrscheinlich ihr/euer Einverst&auml;ndnis dazu. Ein Beispiel, wie dies aussehen k&ouml;nnte, finden sie/findet ihr unter dieser Erkl&auml;rung ',
 			acceptAll: 'Alle Cookies akzeptieren',
 			rejectAll: 'Alle Cookies ablehnen',
 			showPurposes: 'Verwendungszwecke zeigen'
@@ -97,27 +97,27 @@ export default {
 			cookies: {
 				menu: 'Wie wir Cookies einsetzen',
 				title: 'Diese Website verwendet Cookies',
-				description: 'Unsere Partner und wir setzen Cookies (kleine Textdateien) und sammeln Informationen während des Surfens im Web in diesem Browser. Dies dient dazu zu verstehen, was unsere Besucher interessiert und entsprechend relevante Inhalte und Werbung anbieten zu können.'
+				description: 'Unsere Partner und wir setzen Cookies (kleine Textdateien) und sammeln Informationen w&auml;hrend des Surfens im Web in diesem Browser. Dies dient dazu zu verstehen, was unsere Besucher interessiert und entsprechend relevante Inhalte und Werbung anbieten zu k&ouml;nnen.'
 			},
 			purpose1: {
-				menu: 'Zugriff auf ein Gerät',
-				title: 'Zugriff auf ein Gerät',
-				description: 'Die Erlaubnis zum Speichern und Abrufen von Informationen auf dem Gerät eines Website-Besuchers.Das ist notwendig, um Cookies im Web-Browser zu speichern und zur Anzeige relevanter Informationen und Werbung abrufen zu können.'
+				menu: 'Zugriff auf ein Ger&auml;t',
+				title: 'Zugriff auf ein Ger&auml;t',
+				description: 'Die Erlaubnis zum Speichern und Abrufen von Informationen auf dem Ger&auml;t eines Website-Besuchers.Das ist notwendig, um Cookies im Web-Browser zu speichern und zur Anzeige relevanter Informationen und Werbung abrufen zu k&ouml;nnen.'
 			},
 			purpose2: {
-				menu: 'Persönlich angepaßte Werbung',
-				title: 'Persönlich angepaßte Werbung',
-				description: 'Die Erlaubnis, Besucherdaten so zu verarbeiten und/oder zu speichern und abzurufen, dass persönlich angepaßte Werbung angeboten und angezeigt werden kann (dies umfaßt die Auslieferung, Messung und die Erstellung von Berichten darüber). Dies erfolgt auf der Basis bekannter Präferenzen oder Interessen, oder durch das Schließen auf Präferenzen oder Interessen durch die Erfassung von Daten auch über verschiedene Websites, Apps oder Geräte hinweg zu diesem Zweck.'
+				menu: 'Pers&ouml;nlich angepa&szlig;te Werbung',
+				title: 'Pers&ouml;nlich angepa&szlig;te Werbung',
+				description: 'Die Erlaubnis, Besucherdaten so zu verarbeiten und/oder zu speichern und abzurufen, dass pers&ouml;nlich angepa&szlig;te Werbung angeboten und angezeigt werden kann (dies umfa&szlig;t die Auslieferung, Messung und die Erstellung von Berichten dar&uuml;ber). Dies erfolgt auf der Basis bekannter Pr&auml;ferenzen oder Interessen, oder durch das Schlie&szlig;en auf Pr&auml;ferenzen oder Interessen durch die Erfassung von Daten auch &uuml;ber verschiedene Websites, Apps oder Ger&auml;te hinweg zu diesem Zweck.'
 			},
 			purpose3: {
 				menu: 'Analysen',
 				title: 'Analysen',
-				description: 'Die Erlaubnis, Besucherdaten zur Anzeige von Inhalten oder Werbung zu verarbeiten, und zur Messung der Auslieferung solcher Inhalte oder Werbung. Umfasst ist die Gewinnung von Erkenntnissen und die Generierung von Berichten um die Nutzung des angebotenen Service zu verstehen, und/oder das Abrufen oder Speichern von Informationen auf Geräten zu diesem Zweck.'
+				description: 'Die Erlaubnis, Besucherdaten zur Anzeige von Inhalten oder Werbung zu verarbeiten, und zur Messung der Auslieferung solcher Inhalte oder Werbung. Umfasst ist die Gewinnung von Erkenntnissen und die Generierung von Berichten um die Nutzung des angebotenen Service zu verstehen, und/oder das Abrufen oder Speichern von Informationen auf Ger&auml;ten zu diesem Zweck.'
 			},
 			purpose4: {
-				menu: 'Persönlich angepasste Inhalte',
-				title: 'Persönlich angepasste Inhalte',
-				description: 'Die Erlaubnis, Besucherdaten zur Anzeige von personalisierten Inhalten zu verarbeiten, und zur Messung der Auslieferung. Umfasst ist die Gewinnung von Erkenntnissen darüber und die Generierung von Berichten dazu. Dies erfolgt auf der Basis bekannter Präferenzen oder Interessen, oder durch das Schließen auf Präferenzen oder Interessen durch die Erfassung von Daten auch über verschiedene Websites, Apps oder Geräte hinweg zu diesem Zweck.'
+				menu: 'Pers&ouml;nlich angepasste Inhalte',
+				title: 'Pers&ouml;nlich angepasste Inhalte',
+				description: 'Die Erlaubnis, Besucherdaten zur Anzeige von personalisierten Inhalten zu verarbeiten, und zur Messung der Auslieferung. Umfasst ist die Gewinnung von Erkenntnissen dar&uuml;ber und die Generierung von Berichten dazu. Dies erfolgt auf der Basis bekannter Pr&auml;ferenzen oder Interessen, oder durch das Schlie&szlig;en auf Pr&auml;ferenzen oder Interessen durch die Erfassung von Daten auch &uuml;ber verschiedene Websites, Apps oder Ger&auml;te hinweg zu diesem Zweck.'
 			}
 		},
 		vendors: {
@@ -127,7 +127,7 @@ export default {
 			company: 'Unternehmen',
 			offOn: 'Aus/An',
 			description: 'Helfen Sie uns, Ihnen einen besseren Service zu bieten! Unsere Partner verwenden Cookies Ihres Browsers, um quer durch das Web zu verstehen, was Sie interessiert und Ihnen entsprechend relevante Inhalte und Werbung anzubieten.',
-			moreChoices: 'Weitere Auswahlmöglichkeiten'
+			moreChoices: 'Weitere Auswahlm&ouml;glichkeiten'
 		},
 		footer: {
 			message: 'Du kannst deine Datenschutz-Einstellungen bearbeiten',
